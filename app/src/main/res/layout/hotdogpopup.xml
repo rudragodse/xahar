@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="450dp"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/HotDogImageHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/chilleDogs"
+                        android:layout_width="match_parent"
+                        android:layout_height="265dp"
+                        android:src="@drawable/chillidogs"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chilli Dogs"
+                        android:textSize="30sp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A hugely popular HotDog, with a deliciously tangy single cheese topping"
+                        android:textAlignment="center"
+                        android:layout_marginTop="20dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Min order:\n150Rs"
+                        android:layout_marginTop="30dp"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:layout_gravity="center"
+                        />
+
+
+                    <Button
+                        android:onClick="cartActivity"
+                        android:tag="Chill Dogs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Order Now"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/popbuttondesign"
+                        />
+
+                </LinearLayout>
+
+
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/nachoDog"
+                        android:layout_width="match_parent"
+                        android:layout_height="265dp"
+                        android:src="@drawable/nachodog"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nacho Dog"
+                        android:textSize="30sp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A hugely popular HotDog, with a deliciously tangy single cheese topping"
+                        android:textAlignment="center"
+                        android:layout_marginTop="20dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Min order:\n150Rs"
+                        android:layout_marginTop="30dp"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:layout_gravity="center"
+                        />
+
+
+                    <Button
+                        android:onClick="cartActivity"
+                        android:tag="Nacho Dogs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Order Now"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/popbuttondesign"
+                        />
+
+                </LinearLayout>
+
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/pretzelledDogs"
+                        android:layout_width="match_parent"
+                        android:layout_height="265dp"
+                        android:src="@drawable/pretzelled_dogs"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pretzelled Dogs"
+                        android:textSize="30sp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A hugely popular Burger, with a deliciously tangy single cheese topping"
+                        android:textAlignment="center"
+                        android:layout_marginTop="20dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Min order:\n150Rs"
+                        android:layout_marginTop="30dp"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:layout_gravity="center"
+                        />
+
+
+                    <Button
+                        android:onClick="cartActivity"
+                        android:tag="Pretzelled Dogs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Order Now"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/popbuttondesign"
+                        />
+
+                </LinearLayout>
+
+
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

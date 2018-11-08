@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "539616100351",
+    "firebase_url": "https://xahar-b5f29.firebaseio.com",
+    "project_id": "xahar-b5f29",
+    "storage_bucket": "xahar-b5f29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539616100351:android:243854514a0456f7",
+        "android_client_info": {
+          "package_name": "com.example.rudra.xahar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539616100351-tg89mht31tpnvhlshu26ucanoi93h7c0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rudra.xahar",
+            "certificate_hash": "6e869fa2e1a5f3055f77fdd3a67db25689770e63"
+          }
+        },
+        {
+          "client_id": "539616100351-ld84gmjbbhp70jc5uq0ginct8amras5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu5W91V_vbB6XqTUjbuPo5YwPLXnNfuMg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539616100351-rlikgt2ucb6r3valt1msc3hu66juf9lk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

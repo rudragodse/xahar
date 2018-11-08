@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/user"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:inputType="textPersonName"
+            android:hint=" Name"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+           android:id="@+id/Mob"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="40dp"
+           android:layout_marginLeft="40dp"
+           android:layout_marginTop="20dp"
+           android:hint="Mob No"
+           android:inputType="number"/>
+
+
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EmailEditText"
+            android:inputType="textEmailAddress"
+            android:hint="Enter your email id"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your password"
+            android:id="@+id/passwordEditText"
+            android:inputType="textPassword"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:hint="Confirm your password"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
+            android:id="@+id/signinButton"
+            android:textColor="@android:color/white"
+            android:text="Register user"
+            android:onClick="Register"
+            android:background="@drawable/button_style"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+
+
+            />
+
+        <TextView
+            android:id="@+id/ortextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="LogIn"
+            android:text="Or log in here"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/holo_blue_bright"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/facebook"
+                android:onClick="LogIn"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/google"
+                android:layout_marginLeft="40dp"
+                android:onClick="LogIn"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
